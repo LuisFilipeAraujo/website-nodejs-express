@@ -14,3 +14,5 @@ app.get('/speakers', (req, res)=>{
     res.sendFile(path.join(__dirname, './provided/static/speakers.html'));
 
 });
+
+module.exports = router;
